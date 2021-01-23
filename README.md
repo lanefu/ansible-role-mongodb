@@ -1,4 +1,4 @@
-# Ansible role for MongoDB [![Build Status](https://travis-ci.org/UnderGreen/ansible-role-mongodb.svg?branch=master)](https://travis-ci.org/UnderGreen/ansible-role-mongodb)
+# Ansible role for MongoDB 
 
 Ansible role which manages [MongoDB](http://www.mongodb.org/).
 
@@ -8,24 +8,6 @@ Ansible role which manages [MongoDB](http://www.mongodb.org/).
 - Provide handlers for restart and reload;
 - Setup MMS automation agent;
 
-MongoDB support matrix:
-
-| Distribution   | < MongoDB 3.2 |    MongoDB 3.4     |    MongoDB 3.6     |    MongoDB 4.0     |   MongoDB 4.2      |   MongoDB 4.4      |
-| -------------- | :-----------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
-| Ubuntu 14.04   |  :no_entry:   | :white_check_mark: | :white_check_mark: | :white_check_mark: |        :x:         | :interrobang:      |
-| Ubuntu 16.04   |  :no_entry:   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :interrobang:      |
-| Ubuntu 18.04   |  :no_entry:   |        :x:         |        :x:         | :white_check_mark: | :white_check_mark: | :interrobang:      |
-| Ubuntu 20.04   |  :no_entry:   |        :x:         |        :x:         | :interrobang:      | :interrobang:      | :white_check_mark: |
-| Debian 8.x     |  :no_entry:   | :white_check_mark: | :white_check_mark: | :white_check_mark: |        :x:         | :interrobang:      |
-| Debian 9.x     |  :no_entry:   |        :x:         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :interrobang:      |
-| RHEL 6.x       |  :no_entry:   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :interrobang:      |
-| RHEL 7.x       |  :no_entry:   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :interrobang:      |
-| Amazon Linux 2 |  :no_entry:   | :white_check_mark: |        :x:         | :white_check_mark: | :white_check_mark: | :interrobang:      |
-
-- :white_check_mark: - fully tested, should works fine
-- :interrobang: - maybe works, not tested
-- :x: - don't have official support
-- :no_entry: - MongoDB has reached EOL
 
 #### Variables
 
@@ -235,6 +217,4 @@ mongo_replicas
 
 Licensed under the GPLv2 License. See the [LICENSE.md](LICENSE.md) file for details.
 
-#### Feedback, bug-reports, requests, ...
-
-Are [welcome](https://github.com/UnderGreen/ansible-role-mongodb/issues)!
+[original author](https://github.com/UnderGreen/ansible-role-mongodb/)
